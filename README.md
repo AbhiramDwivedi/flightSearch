@@ -189,7 +189,7 @@ flightSearch/
 
 ## API Costs
 
-- **OpenAI**: ~$0.001-0.005 per query (GPT-4 turbo)
+- **OpenAI**: ~$0.001-0.005 per query (GPT-5.2)
 - **SerpAPI**: Free tier includes 250 searches/month; paid plans start at $50/month
 
 The tool tracks and displays your SerpAPI usage to help you stay within limits.
