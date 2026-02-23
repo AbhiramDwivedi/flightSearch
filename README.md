@@ -196,7 +196,9 @@ The tool tracks and displays your SerpAPI usage to help you stay within limits.
 
 ## Why SerpAPI?
 
-We use SerpAPI's Google Flights API because direct access to airline pricing data (via GDS systems like Amadeus or Sabre) is notoriously difficult and expensive for individual developers to obtain. Scraping Google Flights directly is also highly complex due to dynamic rendering and bot protection. SerpAPI provides a reliable, structured JSON wrapper around Google Flights, giving us access to the most comprehensive flight aggregator available with a generous free tier (250 calls/month).
+We use SerpAPI's Google Flights API because direct access to airline pricing data is notoriously difficult for individual developers to obtain. We evaluated direct flight APIs like Amadeus, which offers both Personal and Enterprise tiers. However, the Amadeus Personal tier is slated for shutdown, and crucially, it does not include data for low-cost carriers (like Frontier or Spirit)—making it unusable for comprehensive budget flight searches.
+
+Scraping Google Flights directly is also highly complex due to dynamic rendering and bot protection. SerpAPI provides a reliable, structured JSON wrapper around Google Flights, giving us access to the most comprehensive flight aggregator available (including all low-cost airlines) with a generous free tier (250 calls/month).
 
 ## Limitations
 
